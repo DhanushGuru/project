@@ -37,3 +37,73 @@
 #login{
     margin-left: 60%;
 }
+
+
+/*  LOGIN PAGE CSS  */
+#head{
+    text-align: center;
+}
+
+#signin{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 70vh;
+    margin-left: 60%;
+
+   
+    
+}
+.limage{
+    height: 100%;
+    background-image: url('login.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+#uname{
+
+    border: none;
+  
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+   
+    
+}
+#pass{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+#button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+    color: white;
+    font-weight:700;
+}
+#button:hover{
+    background-color: whitesmoke;
+    color:black
+}
+::placeholder{
+    color: black;
+
+}
