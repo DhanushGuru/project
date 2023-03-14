@@ -1,42 +1,48 @@
+
+/* HOME_PAGE */
+
 *{
     margin: 0;
     padding: 0;
 }
 .navbar{
    
-    background-color:rgb(0, 0, 0);
+    background-color: #333;;
     overflow: hidden;
     
 }
 .navbar a{
+   
+    float: left;
     font-size: 20px;
     color: rgb(255, 242, 242);
-    padding: 20px 5px;
+    padding: 14px 16px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 .navbar a:hover{
-    background-color:white;
-    color: brown;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
-/* .navbar a.active{
-    background-color: white;
-    color:brown
-
-} */
 
 .image{
+    display: flex;
+    overflow-wrap: break-word;
     height: 100%;
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 #login{
-    margin-left: 60%;
+    margin-left: 75%;
 }
+
+ 
 
 
 /*  LOGIN PAGE CSS  */
